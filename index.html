@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>freeCodeCamp Survey Form</title>
 </head>
 <body>
@@ -18,19 +18,19 @@
     </label>
 </div>
 
-<div>
+<div class="form-group">
     <label id="email-label" for="email">Email 
         <input type="email" name="email" id="email" required placeholder="Enter your Email">
     </label>
 </div>
 
-<div>
+<div class="form-group">
     <label id="number-label" for="number">Age 
         <input type="number" name="age" id="number" min="13" max="120" required placeholder="Age">
     </label>
 </div>
 
-<div>
+<div class="form-group">
     <label id="dropdown-label" for="dropdown">Which option best describes your current role? 
         <select name="role" id="dropdown">
             <option value="1">Select current role</option>
@@ -43,7 +43,7 @@
     </label>
 </div>
 
-<div>
+<div class="form-group">
     <label id="radio-label" for="radio">Would you recommend freeCodeCamp to a friend? 
         <input name="user-recommend" type="radio" value="definitely">
         <input name="user-recommend" type="radio" value="maybe">
@@ -51,7 +51,7 @@
     </label>
 </div>
 
-<div>
+<div class="form-group">
     <p>What would you like to see improved? (Check all that apply)</p>
 
         <label>Front-end Projects 
@@ -69,12 +69,12 @@
     
 </div> 
 
-<div>
+<div class="form-group">
     <label for=""> Any comments or suggestions?
     <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
 </div>    
 
-<div>
+<div class="form-group">
     <button id="submit" type="submit">Submit</button>
 </div>
 </form>
